@@ -1,0 +1,38 @@
+export const mockCar = [
+    {
+      crew_id: 123,
+      car_mark: "Chevrolet",
+      car_model: "Lacetti",
+      car_color: "синий",
+      car_number: "Е234КУ",
+      driver_name: "Деточкин",
+      driver_phone: "7788",
+      lat: 56.855532,
+      lon: 53.217462,
+      distance: 0,
+    },
+    {
+      crew_id: 125,
+      car_mark: "Hyundai",
+      car_model: "Solaris",
+      car_color: "белый",
+      car_number: "Ф567АС",
+      driver_name: "Петров",
+      driver_phone: "8899",
+      lat: 56.860581,
+      lon: 53.209223,
+      distance: 0,
+    },
+    {
+        crew_id: 126,
+        car_mark: "KIA",
+        car_model: "RIO",
+        car_color: "красный",
+        car_number: "Т555ТТ",
+        driver_name: "Петрова",
+        driver_phone: "5533",
+        lat: 56.830581,
+        lon: 53.229223,
+        distance: 0,
+      }
+  ];
