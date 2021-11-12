@@ -120,6 +120,7 @@ const App: React.FC = () => {
                   width="100%"
                   height={400}
                   defaultState={{ center: [56.852676, 53.2069], zoom: 13 }}
+                  state={{ center: coords.length === 0 ? [56.852676, 53.2069] : coords, zoom: 13}}
                   onClick={onMapClick}
                   modules={[
                     "geocode",
